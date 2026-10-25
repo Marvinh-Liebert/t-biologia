@@ -36,6 +36,13 @@ header{
 
     padding: 20px;
     margin-bottom: 70px;
+
+    img{
+        height: 150px;
+        border-radius: 50%;
+        border: 5px solid transparent;
+        outline: 5px solid var(--bg-body);
+    }
 }
 
 
@@ -109,4 +116,12 @@ footer{
     padding: 30px;
     text-align: center;
     font-size: 1.2em;
+}
+
+@media (min-width: 768px) {
+    body{
+        grid-template-columns: 1fr 70vw 1fr;
+
+        font-size: 1.4em;
+    }
 }
