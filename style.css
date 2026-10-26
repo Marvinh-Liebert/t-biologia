@@ -100,10 +100,15 @@ main{
         padding-left: 20px;
     }
 
+
     img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
         border-radius: 6px;
         height: 200px;
         width: 337px;
+        padding: 5px;
     }
 }
 
