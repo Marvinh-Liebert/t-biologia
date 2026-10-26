@@ -23,8 +23,9 @@
 body{
     background-color: var(--bg-body);
 
+    
     display: grid;
-    grid-template-columns: 1rem 1fr 1rem;
+    grid-template-columns: 1rem 90 1rem;
 }
 
 header{
