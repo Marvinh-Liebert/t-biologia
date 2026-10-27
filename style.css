@@ -22,7 +22,7 @@
 
 body{
     background-color: var(--bg-body);
-
+    width: 100%;
     
     display: grid;
     grid-template-columns: 1rem 90 1rem;
@@ -110,6 +110,10 @@ main{
         height: 200px;
         width: 337px;
         padding: 5px;
+    }
+
+    p.n{
+        text-align: right;
     }
 }
 
